@@ -1,0 +1,114 @@
+/*inserir font externa do google fonts*/
+body {
+    background-color: hsl(30, 38%, 92%);
+    
+    
+}
+
+p {
+    font-size: 14px;
+}
+.conteiner {
+    width: 600px;
+    display:flex;
+    flex-direction: row;
+    margin: 8% auto;
+    
+    
+}
+
+.conteiner-image {
+   width: 300px;
+   height: 450px;
+   background-image: url('/src/images/image-product-desktop.jpg');
+   background-position: center;
+   background-size: cover;
+   border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+.description {
+    width: 300px;
+    height:450;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.text-description {
+    margin: 30px 30px 30px 30px;
+    
+    
+}
+
+.text-description h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 20px;
+}
+
+.text-description h1 {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.text-description p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 20px;
+}
+.value {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
+    
+}
+
+.value-promotion {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 32px;
+    line-height: 32px;
+    
+
+}
+
+.value-original {
+    font-size: 13px;
+    line-height: 23px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.button {
+    width: 236px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    color: #ffff;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.button img{
+    margin-right: 11.61px;
+}
+
+.button:hover{
+    background-color: hsl(212, 21%, 14%);
+}

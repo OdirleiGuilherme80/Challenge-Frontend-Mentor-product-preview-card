@@ -1,0 +1,23 @@
+/* Responsividade*/
+@media screen and (max-width: 700px) {
+
+.conteiner {
+    max-width: 343px;
+    height: 611px;
+    flex-direction: column;
+}
+
+.conteiner-image {
+    height: 240px;
+    width: 343px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url('/src/images/image-product-mobile.jpg');
+    
+}
+.description {
+    border-radius: 0px 0px 0px 0px;
+    padding: -40px;
+    width: 343px;
+}
+
+}
